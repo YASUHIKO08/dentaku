@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="main.css">
+      <title>電卓</title>
+    </head>
+ 
+  <body>
+    <table class ="calculator">
+      <tr>
+        <td class="answer" colspan=4 id="result">0</td>
+      </tr>
+      <tr>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="7">7</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="8">8</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="9">9</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="+">+</button>
+        </td>
+      </tr>
+      <tr>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="4">4</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="5">5</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="6">6</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="-">-</button>
+        </td>
+      </tr>
+      <tr>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="1">1</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="2">2</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="3">3</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="*">*</button>
+         </td>
+      </tr>
+      <tr>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="0">0</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="00">00</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value=".">.</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="/">/</button>
+        </td>
+      </tr>
+      <tr>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="=">=</button>
+        </td>
+        <td class="calculator_button">
+          <button class ="button" onclick="clickbutton(this)" value="AC">AC</button>
+        </td>
+      </tr>
+    </table>
+  <script src="main.js"></script>
+  </body>
+ </html>
